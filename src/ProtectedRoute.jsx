@@ -11,7 +11,7 @@ export default function ProtectedRoute() {
 
   // Si no hay token, redirigir al login o a /
   if (!token) {
-    return <Navigate to="/Login" replace />;
+    return <Navigate to="/" replace />;
   }
 
   // Si existe el token, renderizar la ruta protegida

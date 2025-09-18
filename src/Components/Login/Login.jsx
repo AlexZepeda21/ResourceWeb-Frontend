@@ -30,7 +30,7 @@ export default function Login() {
       alert("Bienvenido " + response.data.userName);
 
       // Redirigir al home
-      navigate("/Register", { replace: true });
+      navigate("/Prueba", { replace: true });
     } catch (error) {
       console.error("Ha ocurrido un error", error);
       alert("Credenciales incorrectas o error de servidor");
