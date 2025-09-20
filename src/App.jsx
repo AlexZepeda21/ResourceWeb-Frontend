@@ -4,6 +4,7 @@ import Prueba from "./Pages/Prueba";
 import Register from "./Components/Register/Register";
 import Login from "./Components/Login/Login";
 import ProtectedRoute from "./ProtectedRoute";
+import ResetPass from "./Components/ResetPass/ResetPass";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         {/* Rutas públicas */}
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
+        <Route path="/ResetPass" element={<ResetPass/>}/>
 
         {/* Rutas protegidas */}
         <Route element={<ProtectedRoute />}>

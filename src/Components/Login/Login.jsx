@@ -74,12 +74,12 @@ export default function Login() {
         </form>
 
         <div className="mt-4 flex justify-between text-sm px-6">
-          <a
-            href="#"
+          <Link
+            to="/ResetPass"
             className="text-blue-600 hover:underline text-sm font-semibold"
           >
             ¿Olvidaste tu contraseña?
-          </a>
+          </Link>
           <Link
             to="/Register"
             className="text-blue-600 hover:underline font-semibold"
