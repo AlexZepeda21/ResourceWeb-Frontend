@@ -7,6 +7,7 @@ import { Link, Navigate } from "react-router-dom";
 export default function ResetPass(){
 
     return(
+        <>
         <div className="bg-gray-100 min-h-screen flex items-center justify-center">
       <div className="bg-gray-300 rounded-lg shadow-lg w-96 p-8">
         <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">
@@ -49,6 +50,7 @@ export default function ResetPass(){
         </form>
         </div>
       </div>
+      </>
 
     );
 }
